@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\pakiy\.nuget\packages\microsoft.azure.cosmos\3.20.0\contentFiles\any\netstandard2.0\ThirdPartyNotice.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Abp" Version="6.3.1" />
+    <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.20.0" />
+    <PackageReference Include="Microsoft.Azure.DocumentDB.Core" Version="2.14.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>
